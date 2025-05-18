@@ -1,4 +1,3 @@
-p
 package main
 import (
 	"fmt"
