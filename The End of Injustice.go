@@ -547,7 +547,8 @@ type enemies struct{
 	ehp, edmg, eheal int
 }
 
-type pvp struct{
+// struct yang dikhusukankan untuk mode PVP dan tidak digunakan untuk fitur di ruang lingkup PVP.
+type pvp struct{ // digunakan untuk function pvp sendiri jadi material hp,dmg,dsb dijadikan 1 untuk menghindari nilai variabel tersebut masuk kedalam past record. 
 	hp1, hp2, dmg1, dmg2, heal1, heal2, perk1, perk2 int
 	nama1, nama2 string
 }
